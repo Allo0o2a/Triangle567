@@ -5,9 +5,9 @@ dist: trusty
 sudo: required
 
 addons:
- sonarcloud:
- organization: "team7-ssw567-triangle567"
- token: 70198bdeaecec804b804b902cf17598e820b5744
+sonarcloud:
+organization: "team7-ssw567-triangle567"
+token: 70198bdeaecec804b804b902cf17598e820b5744
 
 
 # command to run tests
