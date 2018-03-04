@@ -1,1 +1,1 @@
-[![Quality Gate]( https://sonarqube.com/api/badges/gate?key=team7-ssw567-triangle567)](https://sonarqube.com/dashboard/index/team7-ssw567-triangle567)
+[![build status of master](https://travis-ci.org/Allo0o2a/Triangle567.svg?branch=master)](https://travis-ci.org/Allo0o2a/Triangle567)[![Quality Gate]( https://sonarqube.com/api/badges/gate?key=team7-ssw567-triangle567)](https://sonarqube.com/dashboard/index/team7-ssw567-triangle567)
