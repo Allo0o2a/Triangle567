@@ -22,3 +22,6 @@ script:
   -Dsonar.host.url=https://sonarcloud.io \
   -Dsonar.login=70198bdeaecec804b804b902cf17598e820b5744
 
+cache:
+  directories:
+    - '$HOME/.sonar/cache'
