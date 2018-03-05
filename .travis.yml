@@ -7,6 +7,7 @@ install:
 script:
  - python -m unittest TestTriangle
  - coverage run TestTriangle.py
+ - py.test tests/TestTriangle.py --cov=codecov
 
 after_success:
   - codecov
