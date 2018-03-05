@@ -1,7 +1,12 @@
 language: python
 python:
  - "3.6.1"
-
+install:
+  - pip install codecov
 # command to run tests
 script:
  - python -m unittest TestTriangle
+ - coverage run TestTriangle.py
+
+after_success:
+  - codecov
