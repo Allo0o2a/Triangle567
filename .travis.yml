@@ -14,13 +14,12 @@ addons:
 
 # command to run tests
 script:
-  - ./runSonarQubeAnalysis.sh
   - sonar-scanner \
-  -Dsonar.projectKey=team7-ssw567-triangle567 \
-  -Dsonar.organization=team7-ssw567-triangle567 \
-  -Dsonar.sources=. \
-  -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=70198bdeaecec804b804b902cf17598e820b5744
+   -Dsonar.projectKey=team7-ssw567-triangle567 \
+   -Dsonar.organization=team7-ssw567-triangle567 \
+   -Dsonar.sources=. \
+   -Dsonar.host.url=https://sonarcloud.io \
+   -Dsonar.login=70198bdeaecec804b804b902cf17598e820b5744
   
 after_success:
     - sonar-scanner
