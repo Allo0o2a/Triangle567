@@ -9,8 +9,8 @@ sudo: required
 
 addons:
  sonarcloud:
-  organization: "team7-ssw567-triangle567"
-  token: "627dfe0e68d3951317467abfc83d953b943f7db1"
+  organization: "team-ssw567-triangle567"
+  token: "d90c2df0fa54e820b08148a70df96662408454ef"
   branches:
   - sonarcloud
  
