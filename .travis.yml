@@ -6,12 +6,16 @@ python:
 
 dist: trusty
 sudo: required
+export SONARQUBE_SKIPPED=true
 
 addons:
  sonarcloud:
  organization: "team7-ssw567-triangle567"
  token: 70198bdeaecec804b804b902cf17598e820b5744
  branches:
+ - sonarcloud
+ sonarqube:
+ branches :
  - sonarcloud
  
 # add the sonar-scanner command after all the other commands that you already have
