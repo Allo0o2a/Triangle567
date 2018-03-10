@@ -9,8 +9,8 @@ sudo: required
 
 addons:
  sonarcloud:
- organization: "alllo0o2a"
- token: 0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
+ organization: "team7-ssw567-triangle567"
+ token: 70198bdeaecec804b804b902cf17598e820b5744
  branches:
  - sonarcloud
 
@@ -19,8 +19,8 @@ addons:
 script:
  - python -m unittest TestTriangle
  - sonar-scanner #\
- #-Dsonar.projectKey=alllo0o2a \
-# -Dsonar.organization=alllo0o2a \
+ #-Dsonar.projectKey=team7-ssw567-triangle567 \
+# -Dsonar.organization=team7-ssw567-triangle567 \
  #-Dsonar.sources=. \
  #-Dsonar.host.url=https://sonarcloud.io \
- #-Dsonar.login=0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
+ #-Dsonar.login=70198bdeaecec804b804b902cf17598e820b5744
