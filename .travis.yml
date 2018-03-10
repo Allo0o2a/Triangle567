@@ -1,6 +1,6 @@
 language: python
 python:
- - "2.7"
+ - "3.6.1"
  
 # Add these lines after the install section 
 
