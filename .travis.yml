@@ -10,20 +10,17 @@ export SONARQUBE_SKIPPED=true
 
 addons:
  sonarcloud:
- organization: "team7-ssw567-triangle567"
- token: 70198bdeaecec804b804b902cf17598e820b5744
+ organization: "alllo0o2a"
+ token: 0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
  branches:
- - sonarcloud
- sonarqube:
- branches :
  - sonarcloud
  
 # add the sonar-scanner command after all the other commands that you already have
 script:
  - python -m unittest TestTriangle
  -sonar-scanner \
- -Dsonar.projectKey=team7-ssw567-triangle567 \
- -Dsonar.organization=team7-ssw567-triangle567 \
+ -Dsonar.projectKey=alllo0o2a \
+ -Dsonar.organization=alllo0o2a \
  -Dsonar.sources=. \
  -Dsonar.host.url=https://sonarcloud.io \
- -Dsonar.login=70198bdeaecec804b804b902cf17598e820b5744
+ -Dsonar.login=0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
