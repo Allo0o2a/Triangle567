@@ -17,7 +17,7 @@ addons:
 # add the sonar-scanner command after all the other commands that you already have
 script:
  - python -m unittest TestTriangle
- sonar-scanner \
+ -sonar-scanner \
  -Dsonar.projectKey=team7-ssw567-triangle567 \
  -Dsonar.organization=team7-ssw567-triangle567 \
  -Dsonar.sources=. \
