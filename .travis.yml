@@ -8,21 +8,19 @@ dist: trusty
 sudo: required
 
 addons:
-  sonarcloud:
-    organization: "alllo0o2a"
-    token: 0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
-      secure: *********
-    branches:
-      - sonarcloud
-      - 
+ sonarcloud:
+ organization: "alllo0o2a"
+ token: 0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
+ branches:
+ - sonarcloud
 
  
 # add the sonar-scanner command after all the other commands that you already have
 script:
  #- python -m unittest TestTriangle
   - sonar-scanner \
-  -Dsonar.projectKey=alllo0o2a \
-  -Dsonar.organization=alllo0o2a \
-  -Dsonar.sources=. \
-  -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
+ -Dsonar.projectKey=alllo0o2a \
+ -Dsonar.organization=alllo0o2a \
+ -Dsonar.sources=. \
+ -Dsonar.host.url=https://sonarcloud.io \
+ -Dsonar.login=0d3dfd1c20efd01045a08e43dc27cad6d38fe72d
